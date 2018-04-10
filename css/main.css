@@ -1,0 +1,47 @@
+/* Search Bar */
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  height: 16px;
+  width: auto;
+  border-radius: 5px;
+  margin: auto;
+}
+
+/* Images */
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 1rem;
+}
+
+.responsive-image {
+  max-width: 100%;
+}
+
+.cell img {
+  display: block;
+  margin: 20px auto;
+}
+
+@media screen and (min-width: 600px) {
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .cell {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .cell {
+    width: calc(100% / 4);
+  }
+}
