@@ -3,19 +3,21 @@
 .search-bar {
   display: flex;
   justify-content: center;
+  margin: 15px;
 }
 
 .search {
-  height: 16px;
-  width: auto;
+  height: 25px;
+  width: 300px;
   border-radius: 5px;
   margin: auto;
+  border-color: lightgrey;
 }
 
 /* Images */
 
 .container {
-  margin: 0 auto;
+  margin: 25px 50px;
   max-width: 1200px;
   padding: 0 1rem;
 }
