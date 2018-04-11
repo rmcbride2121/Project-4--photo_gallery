@@ -1,3 +1,7 @@
+body {
+  font-family: 'Courier New';
+}
+
 /* Search Bar */
 
 .search-bar {
@@ -12,6 +16,7 @@
   border-radius: 5px;
   margin: auto;
   border-color: lightgrey;
+  font-family: 'Courier New';
 }
 
 /* Images */
