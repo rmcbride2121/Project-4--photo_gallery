@@ -1,3 +1,9 @@
 $('.container').lightbox();
 
-$('#search-1').hideseek();
+$(document).ready(function() {
+	$('#search').hideseek();
+});
+
+// $('#search-hidden-mode').hideseek({
+//   hidden_mode: true
+// });
