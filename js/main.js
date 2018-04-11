@@ -1,1 +1,3 @@
 $('.container').lightbox();
+
+$('.search').hideseek();
