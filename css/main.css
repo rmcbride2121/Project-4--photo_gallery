@@ -2,10 +2,6 @@ body {
   font-family: 'Courier New';
 }
 
-.cell span {
-  display: none;
-}
-
 /* Search Bar */
 
 .search-bar {
@@ -38,6 +34,14 @@ body {
 .cell img {
   display: block;
   margin: 20px auto;
+}
+
+.cell span {
+  display: none;
+}
+
+.lightbox .lb-image {
+  border: none;
 }
 
 @media screen and (min-width: 600px) {
