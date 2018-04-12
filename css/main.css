@@ -11,11 +11,13 @@ body {
 }
 
 #search {
-  height: 25px;
+  height: 35px;
   width: 300px;
   border-radius: 5px;
   margin: auto;
   border-color: lightgrey;
+  border-style: solid;
+  border-width: thin;
   font-family: 'Courier New';
 }
 
